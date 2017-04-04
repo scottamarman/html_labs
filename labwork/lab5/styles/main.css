@@ -1,0 +1,138 @@
+/*the reset selector*/
+* {
+    margin: 0;
+    padding: 0; }
+
+/* the styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 10px;
+    width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #931420;
+    background: #fffded;
+}
+html {
+    background: white;
+}
+a:hover, a:focus {font-style: italic}
+
+/* the styles for the header */
+header img {
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 1em;
+}
+header {
+    border-bottom: 3px solid #931420;
+    padding-top: .75em; 
+    padding-bottom: 1.5em;
+    background-image: linear-gradient( 
+        65deg, white 20%, #f6bb73 80%);
+    }
+header h2 {
+font-size: 175%;
+color: #800000;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+.shadow {text-shadow: 2px 2px 2px #800000;}
+
+/* the styles for the main content*/
+main {
+    clear: left;
+}
+
+/*styles for the section */
+section {
+    width: 525px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section blockquote {
+    padding-right:2em;
+    padding-left: 2em;
+    font-style: italic;
+    }
+section h1 {
+    font: 150%;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section h2 {
+    font-size: 130%;
+    color:#800000;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    }
+section p { 
+    padding-bottom: .5em;
+    }
+section ul  {
+    padding-bottom: .25em;
+    padding-left: 1.25em;
+}
+section li {
+    padding-bottom: .35em;
+}
+/*styles for the article*/
+article {
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+article img {
+    float:right;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+article h2 {
+    padding-top: 0;
+}
+article h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+/*styles for the aside */
+aside {
+    width: 215px;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+aside h2 {
+    color: #800000;
+    font-size: 130%;
+    padding: .5em 0 .25em 0;
+}
+aside h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+aside img {
+    padding-bottom: 1em;
+}
+
+/* the styles for the footer */
+footer p {
+    text-align: center;
+    background: #931420;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    clear: both;
+}
